@@ -1,0 +1,81 @@
+{
+  "schema": 1,
+  "id": "callout-arrow-handdrawn",
+  "name": "Hand-Drawn Arrow",
+  "type": "lottie",
+  "category": "callouts",
+  "file": "callout-arrow-handdrawn.json",
+  "thumbnail": "thumbnail.png",
+  "license": "CC-BY-NC-SA-4.0",
+  "description": "Curved arrow that sweeps up and to the right as it draws on; point it at whatever you want viewers to notice.",
+  "tags": [
+    "arrow",
+    "pointer",
+    "marker",
+    "hand-drawn",
+    "thumbnail",
+    "callout"
+  ],
+  "width": 520,
+  "height": 400,
+  "fps": 30,
+  "duration": 1.2,
+  "playback": "intro-hold",
+  "slots": {
+    "primary": "#FF2D2D"
+  },
+  "textArea": null,
+  "variants": [
+    {
+      "id": "hand",
+      "name": "Marker",
+      "file": "callout-arrow-handdrawn.json",
+      "thumbnail": "thumbnail.png",
+      "preview": "preview.webp",
+      "poster": "poster.png",
+      "width": 520,
+      "height": 400,
+      "duration": 1.2,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF2D2D"
+      },
+      "textArea": null,
+      "description": "Marker-style curved arrow drawn on: the shaft sweeps up, then the head is flicked on."
+    },
+    {
+      "id": "clean",
+      "name": "Clean",
+      "file": "callout-arrow-handdrawn--clean.json",
+      "thumbnail": "thumbnail--clean.png",
+      "preview": "preview--clean.webp",
+      "poster": "poster--clean.png",
+      "width": 520,
+      "height": 400,
+      "duration": 1.2,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF2D2D"
+      },
+      "textArea": null,
+      "description": "Even vector line with a rounded solid arrowhead that pops on."
+    },
+    {
+      "id": "neon",
+      "name": "Neon",
+      "file": "callout-arrow-handdrawn--neon.json",
+      "thumbnail": "thumbnail--neon.png",
+      "preview": "preview--neon.webp",
+      "poster": "poster--neon.png",
+      "width": 520,
+      "height": 400,
+      "duration": 1.2,
+      "playback": "intro-hold",
+      "slots": {
+        "primary": "#FF3DBB"
+      },
+      "textArea": null,
+      "description": "Glowing neon tube that flickers on as it draws, with a chevron head."
+    }
+  ]
+}
